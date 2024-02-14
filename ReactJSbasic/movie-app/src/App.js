@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/movie"> {/* upper */}
+        <Route path="/movie/:id"> {/* upper */}
           <Detail />
         </Route>
         <Route path="/">
